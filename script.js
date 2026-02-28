@@ -49,11 +49,18 @@ const navItems = document.querySelectorAll('.nav-links a');
 
 function updateActiveNav() {
   let current = '';
-  sections.forEach(section => {
-    if (window.scrollY >= section.offsetTop - 120) {
-      current = section.getAttribute('id');
-    }
-  });
+
+  // If scrolled to the bottom of the page, activate "contact" (footer)
+  if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight - 50) {
+    current = 'footer';
+  } else {
+    sections.forEach(section => {
+      if (window.scrollY >= section.offsetTop - 120) {
+        current = section.getAttribute('id');
+      }
+    });
+  }
+
   navItems.forEach(a => {
     a.classList.toggle('active-link', a.getAttribute('href') === '#' + current);
   });
