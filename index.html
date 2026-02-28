@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gino Omerovic — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header id="header">
+    <nav class="navbar">
+      <a href="#hero" class="nav-logo">G<span>O</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#etude">ÉTUDE</a></li>
+        <li><a href="#experience">EXPÉRIENCE</a></li>
+        <li><a href="#projets">PROJETS</a></li>
+        <li><a href="#competence">COMPÉTENCE</a></li>
+        <li><a href="#footer">CONTACT</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-name">
+        <span class="name-top">Gin</span>
+        <span class="shared-o">
+          <span class="o-letter">O</span>
+        </span>
+        <span class="name-bot">merovic</span>
+      </h1>
+      <p class="hero-tagline">
+        Explorez mon travail et <span class="accent">ma vision</span>
+      </p>
+      <p class="hero-roles">
+        <span>Web Designer</span>
+        <span class="role-sep">—</span>
+        <span>Développeur</span>
+      </p>
+      <a href="#etude" class="btn-hero">Découvrir mon parcours ↓</a>
+    </div>
+    <div class="scroll-line"><div class="scroll-inner"></div></div>
+  </section>
+
+  <!-- ═══════════════ PARCOURS SCOLAIRE ═══════════════ -->
+  <section id="etude" class="section">
+    <div class="container">
+      <h2 class="section-title">Mon Parcours <span>Scolaire</span></h2>
+      <p class="section-sub">Une formation structurée autour du numérique</p>
+
+      <div class="timeline">
+
+        <div class="tl-item tl-left" data-reveal>
+          <div class="tl-dot active"></div>
+          <div class="tl-card glow-green">
+            <div class="tl-year">2025 — 2026</div>
+            <img class="tl-logo" src="img/logo-42.png" alt="42 Luxembourg" />
+            <h3>École 42</h3>
+            <p class="tl-detail">Piscine + Cursus 42</p>
+            <p class="tl-school">42 Luxembourg</p>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right" data-reveal>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-year">2023 — 2025</div>
+            <img class="tl-logo" src="img/logo-mewo.png" alt="MEWO" />
+            <h3>BTS SIO</h3>
+            <p class="tl-detail">Option SLAM • Alternance</p>
+            <p class="tl-school">MEWO — Metz</p>
+          </div>
+        </div>
+
+        <div class="tl-item tl-left" data-reveal>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-year">2023</div>
+            <img class="tl-logo" src="img/logo-lycee.png" alt="Lycée de la Communication" />
+            <h3>BAC STI2D</h3>
+            <p class="tl-detail">Option SIN</p>
+            <p class="tl-school">Lycée de la Communication — Metz</p>
+            <span class="tl-badge done">Obtenu</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EXPÉRIENCES ═══════════════ -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title light">Expériences <span>Professionnelles</span></h2>
+      <p class="section-sub light">Mes collaborations et projets concrets</p>
+
+      <div class="trophies">
+
+        <div class="trophy-card" data-reveal>
+          <div class="trophy-bg-glow"></div>
+          <img class="trophy-logo" src="img/xtramile.png" alt="Xtramile" />
+          <div class="trophy-body">
+            <div class="trophy-year">2019</div>
+            <h3>Stage d'Observation</h3>
+            <p class="trophy-place">Xtramile — Metz</p>
+            <p class="trophy-desc">Découverte du milieu professionnel et du développement web en conditions réelles.</p>
+            <div class="trophy-tags">
+              <span>Observation</span>
+              <span>Web</span>
+              <span>Web Frontend</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trophy-card featured" data-reveal>
+          <div class="trophy-bg-glow gold"></div>
+          <img class="trophy-logo" src="img/editus.png" alt="Editus" />
+          <div class="trophy-body">
+            <div class="trophy-year">2023 — 2024</div>
+            <h3>Alternance — Testeur QA</h3>
+            <p class="trophy-place">Editus — Luxembourg</p>
+            <p class="trophy-desc">Tests logiciels, validation de fonctionnalités, rédaction de cas de test et suivi qualité en environnement agile.</p>
+            <div class="trophy-tags">
+              <span>QA Testing</span>
+              <span>Qualité</span>
+              <span>Python</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJETS ═══════════════ -->
+  <section id="projets" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title light">Projets <span>Personnels</span></h2>
+      <p class="section-sub">Ce que j’ai imaginé et développé</p>
+
+      <div class="carousel-scene">
+        <div class="carousel-ring" id="carouselRing">
+
+          <a href="https://github.com/ginoom/montage-video-automatique/blob/main/montage%20vid%C3%A9o.py" target="_blank" rel="noopener" class="proj-card">
+            <div class="proj-img-wrap">
+              <img src="img/logo python youtube.png" alt="Projet 1" />
+              <div class="proj-img-overlay"></div>
+            </div>
+            <div class="proj-body">
+              <h3>Automatisation Montage Vidéo</h3>
+              <p class="proj-legend">Automatisation complète d'une chaîne YouTube lofi : montage vidéo, habillage visuel et upload via Python.</p>
+              <div class="proj-tags">
+                <span>Python</span>
+                <span>Automatisation</span>
+                <span>YouTube API</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/ginoom/montage-video-automatique/blob/main/music.py" target="_blank" rel="noopener" class="proj-card">
+            <div class="proj-img-wrap">
+              <img src="img/logo python youtube.png" alt="Projet 2" />
+              <div class="proj-img-overlay"></div>
+            </div>
+            <div class="proj-body">
+              <h3>Automatisation Montage Audio</h3>
+              <p class="proj-legend">Génération automatique de pistes audio lofi : assemblage, effets sonores et publication YouTube sans intervention manuelle.</p>
+              <div class="proj-tags">
+                <span>Python</span>
+                <span>Automatisation</span>
+                <span>YouTube API</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://ginoom.github.io/ancien.porfolio/" target="_blank" rel="noopener" class="proj-card">
+            <div class="proj-img-wrap">
+              <img src="img/portfolio.png" alt="Ancien Portfolio" />
+              <div class="proj-img-overlay"></div>
+            </div>
+            <div class="proj-body">
+              <h3>Ancien Portfolio</h3>
+              <p class="proj-legend">Premier portfolio conçu lors de ma recherche d'alternance — vitrine de mes compétences en design et développement web.</p>
+              <div class="proj-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://ginoom.github.io/carte.pokemon/" target="_blank" rel="noopener" class="proj-card">
+            <div class="proj-img-wrap">
+              <img src="img/carte pokemon.png" alt="Carte de visite Pokémon" />
+              <div class="proj-img-overlay"></div>
+            </div>
+            <div class="proj-body">
+              <h3>Carte de Visite Pokémon</h3>
+              <p class="proj-legend">Expérimentation d'effets 3D interactifs en JavaScript inspirés des cartes Pokémon holographiques.</p>
+              <div class="proj-tags">
+                <span>JavaScript</span>
+                <span>CSS 3D</span>
+                <span>Design</span>
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="carouselPrev" aria-label="Précédent">←</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-btn" id="carouselNext" aria-label="Suivant">→</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════ COMPÉTENCES ═══════════════ -->
+  <section id="competence" class="section">
+
+    <div class="stacks-layer" aria-hidden="true">
+      <img class="stack-img s1"  src="img/img%20stack/html.png"   alt="">
+      <img class="stack-img s2"  src="img/img%20stack/css.png"    alt="">
+      <img class="stack-img s3"  src="img/img%20stack/js.png"     alt="">
+      <img class="stack-img s4"  src="img/img%20stack/React.png"  alt="">
+      <img class="stack-img s5"  src="img/img%20stack/Vue-js.png" alt="">
+      <img class="stack-img s6"  src="img/img%20stack/Python.png" alt="">
+      <img class="stack-img s7"  src="img/img%20stack/C.png"      alt="">
+      <img class="stack-img s8"  src="img/img%20stack/c++.png"    alt="">
+      <img class="stack-img s9"  src="img/img%20stack/MySQL.png"  alt="">
+      <img class="stack-img s10" src="img/img%20stack/figma.png"  alt="">
+      <img class="stack-img s11" src="img/img%20stack/Canva.png"  alt="">
+    </div>
+
+    <div class="container">
+
+      <h2 class="section-title" style="position:relative; z-index:2; color:var(--text); margin-bottom:4rem;">Compétences <span>Techniques</span></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card" data-reveal>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Vue.js</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <h3>Web Design</h3>
+          <div class="skill-tags">
+            <span>Figma</span>
+            <span>Canva</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer id="footer">
+    <div class="footer-inner">
+
+      <div class="footer-col">
+        <h4>CONTACT</h4>
+        <a href="tel:+33656687813">+33 6 56 68 78 13</a>
+        <a href="mailto:ginomerovic@gmail.com">ginomerovic@gmail.com</a>
+      </div>
+
+      <div class="footer-logo-center">
+        <div class="footer-logo">G<span>O</span></div>
+        <p>Gino Omerovic</p>
+        <p class="footer-role">Web Designer · Développeur</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>RÉSEAUX</h4>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/gino-omerovic-101504234/" class="social linkedin" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <img class="s-icon" src="img/linkedin.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/ginoom" class="social github" aria-label="GitHub" target="_blank" rel="noopener">
+            <img class="s-icon" src="img/github.png" alt="GitHub">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Gino Omerovic — Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
